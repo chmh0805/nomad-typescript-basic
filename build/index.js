@@ -1,9 +1,6 @@
-var Block = /** @class */ (function () {
-    function Block(data) {
-        this.data = data;
-    }
-    Block.hello = function () {
-        return "hi";
-    };
-    return Block;
-}());
+import { init, exit } from "myPackage";
+init({
+    url: "true",
+});
+exit(1);
+localStorage.clear();
